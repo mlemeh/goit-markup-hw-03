@@ -86,10 +86,13 @@ img {
 
 /* ------ HEADER -----*/
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-container {
@@ -98,6 +101,7 @@ img {
 }
 
 .header-logo {
+  margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
@@ -115,7 +119,6 @@ img {
 
 .header-list {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -213,7 +216,7 @@ img {
 /* ----- feature ----- */
 .feature {
   margin: 0 auto;
-  padding-top: 120px;
+  padding: 120px 0;
   /*  outline: 2px solid green; */
 }
 
@@ -293,8 +296,15 @@ img {
 
 .team-item-desc {
   padding: 32px 16px;
-  text-align: center;
+}
+
+.team-item-title {
   margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-item-text {
+  text-align: center;
 }
 
 /*.team-item-title {
@@ -401,5 +411,8 @@ img {
   padding-left: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.job-title {
   margin-bottom: 8px;
 }
